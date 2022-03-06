@@ -15,7 +15,7 @@ app.use(express.json());
 //routes
 app.use("/api/v1/tasks", tasks);
 
-app.use("/", express.static("./public/index.html"));
+// app.use("/", express.static("./public/index.html"));
 
 // app.get("/", (req, res) => {
 //   res.send("Taskmanager App");
