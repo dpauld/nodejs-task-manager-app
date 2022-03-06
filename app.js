@@ -13,9 +13,11 @@ app.use(express.static("./public"));
 
 //routes
 app.use("/api/v1/tasks", tasks);
-app.get("/", (req, res) => {
-  res.send("Taskmanager App");
-});
+
+// app.get("/", (req, res) => {
+//   res.send("Taskmanager App");
+// });
+
 //routes
 // app.get("*", (req, res) => {
 //   res.send("Page not found");
@@ -24,7 +26,7 @@ app.use(notFound);
 app.use(errorHandlerMiddleware);
 
 const port = process.env.PORT || 3000;
-const connectionString = process.env.MONGO_URI;
+const connectionString = process.env.MONGODB_URI;
 
 const start = async () => {
   try {
