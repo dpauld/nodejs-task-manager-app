@@ -8,15 +8,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "common": "^0.2.5",
     "debug": "^4.3.3",
     "express": "^4.17.3",
     "mongoose": "^6.2.4"
   },
   "engines": {
-    "node": "16.13.0"
+    "node": "16.14.0"
   },
   "description": ""
 }
