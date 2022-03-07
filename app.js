@@ -1,5 +1,5 @@
 const express = require("express");
-require("dotenv").config();
+// require("dotenv").config();
 const { connectDB } = require("./db/connect");
 const app = express();
 const tasks = require("./routes/tasks");
