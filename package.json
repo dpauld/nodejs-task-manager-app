@@ -12,6 +12,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "common": "^0.2.5",
     "debug": "^4.3.4",
     "express": "^4.17.3",
     "mongoose": "^6.2.4"
