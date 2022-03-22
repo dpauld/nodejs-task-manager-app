@@ -1,5 +1,5 @@
 const express = require("express");
-//require("dotenv").config();
+//require("dotenv").config();// comment out this to run locally
 const { connectDB } = require("./db/connect");
 const app = express();
 const tasks = require("./routes/tasks");
