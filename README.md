@@ -7,7 +7,7 @@ Further information about Task Manager project is available in the [doc] section
 
 1. Clone the project in your local repository from Github
 2. Install all the node modules using `npm install` command or install the required package individually.
-3. Comment out the `require("dotenv").config()` line of `app.js` to run it locally. On the other hand, If you plan to deploy, comment this line of code to avoid port conflict.
+3. Uncomment `require("dotenv").config()` line of `app.js` to run it locally. On the other hand, If you plan to deploy, comment this line of code to avoid port conflict. In case of running locally create a new file for setting up environment varibale, name it `.env`. Then assign `PORT = 3000` and `MONGODB_URI = "<your mongodb database connection string>"` inside the `.env` file.
 <!--
 4. [Optional] If `node_modules` is added in `.gitignore` file, then dont have it in `.gitigone` file. This way the node_modules will get deployed in the server. You may face error if you dont deploy the `node_modules` folder in the server.
    -->
@@ -28,6 +28,8 @@ $ git add .
 $ git commit -am "make it better"
 $ git push heroku main
 ```
+
+4. It is important to Add the config vars. This project use mongodb, so add a config variable for mongodb connection string. `key = MONGODB_URI` and `value=your mongodb database connection string`
 
 ## Error and Challenges I found, How I dealt with them?
 
