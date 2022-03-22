@@ -12,7 +12,7 @@ Further information about Task Manager project is available in the [doc] section
 4. [Optional] If `node_modules` is added in `.gitignore` file, then dont have it in `.gitigone` file. This way the node_modules will get deployed in the server. You may face error if you dont deploy the `node_modules` folder in the server.
    -->
 
-## To Deploy This project in Heroku, follow this steps,
+## To Deploy This project in Heroku, follow these steps,
 
 1. Download and install the `Heroku CLI`.
 2. Open your terminal and write the following command lines, It will open the browser and take you to heroku website for Log in. Now, Log in to your Heroku account and it will automatically give your local machine the login access and perform any modification. Eralier, you need to Follow the prompts to create a new SSH public key.
