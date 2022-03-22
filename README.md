@@ -32,6 +32,8 @@ $ git push heroku main
 
 4. It is important to Add the config vars. This project use mongodb, so add a config variable for mongodb connection string. `key = MONGODB_URI` and `value=your mongodb database connection string`
 
+5. Add a file named `Procfile` dedicated for heroku. A Procfile is a mechanism for declaring what commands are run by your application's containers on the Deis platform. Basically it tells the server, what command on which file it needs to run to start the project working.
+
 ## Error and Challenges I found, How I dealt with them?
 
 1. `Heroku Error: Cannot find module './common'` : I solved this by not having node_modules in my .gitignore folder which was there originally. This way the node_modules got deployed as well.
