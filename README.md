@@ -1,6 +1,7 @@
 # Task Manager - A nodejs and mongodb based project
 
 [Task Manager](https://nodejs-task-manager-dpauld.herokuapp.com/)
+
 Further information about Task Manager project is available in the [doc] section.
 
 ## Clone this project
