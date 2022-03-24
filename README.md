@@ -2,7 +2,7 @@
 
 [Task Manager](https://nodejs-task-manager-dpauld.herokuapp.com/)
 
-Further information about Task Manager project is available in the [doc] section.
+Further information about Task Manager project is available in the [doc](https://github.com/dpauld/node-express-johnsmilga/blob/main/03-task-manager/starter/README.md) section.
 
 ## Clone this project
 
