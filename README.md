@@ -1,6 +1,9 @@
 # Task Manager - A nodejs and mongodb based project
 
-[Task Manager](https://nodejs-task-manager-dpauld.herokuapp.com/)
+<!--
+[Task Manager](https://nodejs-task-manager-dpauld.herokuapp.com/) -->
+
+[Task Manager](https://nodejs-task-manager-app.onrender.com/)
 
 Further information about Task Manager project is available in the [doc](https://github.com/dpauld/node-express-johnsmilga/blob/main/03-task-manager/starter/README.md) section.
 
@@ -13,7 +16,16 @@ Further information about Task Manager project is available in the [doc](https:/
 4. [Optional] If `node_modules` is added in `.gitignore` file, then dont have it in `.gitigone` file. This way the node_modules will get deployed in the server. You may face error if you dont deploy the `node_modules` folder in the server.
    -->
 
-## To Deploy This project in Heroku, follow these steps,
+## To Deploy This project in Render(free tier), follow these steps,
+
+1. Signin/Signup to Render
+2. Click `New > Webservices`, at this point they will ask you to connect github or gitlab with render, connect them so that you can give the app access to your apps stored in git repository. Once render is connected to your github account you will see a list of git repositories shown at render. Such as: ![Git repo list shown in render](./READMEImages/render_gitrepolist.PNG)
+3. Now to deploy the app click on the `connect` button just beside your target apps git repository shown in the list of render website.
+4. Now fill up the fields accordingly, ![Initial app deployment settings](./READMEImages/render_appDeploy_settings.PNG)
+5. Click advance and then add environment variable related to database. ![Advance app deployment settings](./READMEImages/render_appdeploy_advSettings.PNG)
+6. Lastly Click on Create Web Service, within few minutes app will be deployed and will generate a url. Click on the URL to visit your live app.
+
+## (Heroku is not free anymore) To Deploy This project in Heroku, follow these steps,
 
 1. Download and install the `Heroku CLI`.
 2. Open your terminal and write the following command lines, It will open the browser and take you to heroku website for Log in. Now, Log in to your Heroku account and it will automatically give your local machine the login access and perform any modification. Eralier, you need to Follow the prompts to create a new SSH public key.
