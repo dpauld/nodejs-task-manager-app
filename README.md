@@ -22,7 +22,7 @@ Further information about Task Manager project is available in the [doc](https:/
 2. Click `New > Webservices`, at this point they will ask you to connect github or gitlab with render, connect them so that you can give the app access to your apps stored in git repository. Once render is connected to your github account you will see a list of git repositories shown at render. Such as: ![Git repo list shown in render](./READMEImages/render_gitrepolist.PNG)
 3. Now to deploy the app click on the `connect` button just beside your target apps git repository shown in the list of render website.
 4. Now fill up the fields accordingly, ![Initial app deployment settings](./READMEImages/render_appDeploy_settings.PNG)
-5. Click advance and then add environment variable related to database. ![Advance app deployment settings](./READMEImages/render_appdeploy_advSettings.PNG)
+5. Click advance and then add environment variable related to database. It is important to Add the environment variables. This project use mongodb, so add a config variable for mongodb connection string. `key = MONGODB_URI` and `value=your mongodb database connection string`. ![Advance app deployment settings](./READMEImages/render_appdeploy_advSettings.PNG)
 6. Lastly Click on Create Web Service, within few minutes app will be deployed and will generate a url. Click on the URL to visit your live app.
 
 ## (Heroku is not free anymore) To Deploy This project in Heroku, follow these steps,
