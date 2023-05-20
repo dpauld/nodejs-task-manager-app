@@ -5,7 +5,7 @@
 
 [Task Manager](https://nodejs-task-manager-app.onrender.com/)
 
-![Task manager application webpage](./READMEImages/tasmanager-app.PNG)
+![Task manager application webpage](./READMEImages/taskmanager-app.PNG)
 
 Further information about Task Manager project is available in the [doc](https://github.com/dpauld/node-express-johnsmilga/blob/main/03-task-manager/starter/README.md) section.
 
